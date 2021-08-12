@@ -1,4 +1,4 @@
-#You will need to PIP INSTALL tweepy for this to work and also create a twitter API. Run this on your own machine, not in this Repl. 
+#You will need to PIP INSTALL tweepy for this to work and also create a twitter API. Run this on your own machine.
 import tweepy
 import time
 
@@ -15,7 +15,7 @@ print (user.name) #prints your name.
 print (user.screen_name)
 print (user.followers_count)
 
-search = "zerotomastery"
+search = "Sravanth"
 numberOfTweets = 2
 
 def limit_handle(cursor):

@@ -12,8 +12,8 @@ api = tweepy.API(auth)
 
 user = api.me()
 print (user.name) #prints your name.
-print (user.screen_name)
-print (user.followers_count)
+print (user.screen_name)#prints screen name
+print (user.followers_count)#prints followers count
 
 search = "Sravanth"
 numberOfTweets = 2
